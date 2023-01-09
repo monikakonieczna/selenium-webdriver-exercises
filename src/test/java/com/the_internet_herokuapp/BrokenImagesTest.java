@@ -1,5 +1,6 @@
 package com.the_internet_herokuapp;
 
+import com.amberteam.the_internet_herokuapp.BrokenImagesPage;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
 import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;
@@ -7,7 +8,6 @@ import org.apache.hc.core5.http.HttpResponse;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 
-import java.io.IOException;
 import java.util.List;
 
 public class BrokenImagesTest extends BaseTest {

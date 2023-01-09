@@ -1,5 +1,6 @@
 package com.the_internet_herokuapp;
 
+import com.amberteam.the_internet_herokuapp.ButtonPage;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;

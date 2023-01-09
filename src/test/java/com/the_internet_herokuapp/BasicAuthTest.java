@@ -1,7 +1,7 @@
 package com.the_internet_herokuapp;
 
+import com.amberteam.the_internet_herokuapp.BasicAuthPage;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.devtools.DevTools;
 
 import static org.junit.jupiter.api.Assertions.*;
 

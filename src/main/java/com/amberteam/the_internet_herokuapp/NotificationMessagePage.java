@@ -1,5 +1,6 @@
 package com.amberteam.the_internet_herokuapp;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -15,6 +16,9 @@ public class NotificationMessagePage {
 
     /*************************** Locators ***********************************/
 
+    By link = By.cssSelector("a[href*='notification_message']");
+    By notificationMessage = By.cssSelector("div[id='flash']");
+
 
     /*************************** Constructor ***********************************/
 
@@ -27,5 +31,15 @@ public class NotificationMessagePage {
 
     public void navigateTo() {
         driver.get(url);
+    }
+
+    public void clickHere() {
+        driver.findElement(link)
+              .click();
+    }
+
+    public String getNotificationMessage() {
+        return driver.findElement(notificationMessage)
+                     .getText();
     }
 }

@@ -1,5 +1,6 @@
 package com.amberteam.the_internet_herokuapp;
 
+import com.amberteam.the_internet_herokuapp.utils.UserType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
+
+import static com.amberteam.the_internet_herokuapp.utils.UserType.*;
 
 public class HoverPage {
 
@@ -40,10 +43,10 @@ public class HoverPage {
         driver.get(url);
     }
 
-    public void hoverUser(int index) {
-        Map<Integer, By> map = Map.of(1, user1, 2, user2, 3, user3);
+    public void hoverUser(UserType userType) {
+        Map<UserType, By> map = Map.of(USER1, user1, USER2, user2, USER3, user3);
         Actions action = new Actions(driver);
-        WebElement e = driver.findElement(map.get(index));
+        WebElement e = driver.findElement(map.get(userType));
         action.moveToElement(e)
               .perform();
     }

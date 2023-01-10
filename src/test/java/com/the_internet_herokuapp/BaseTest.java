@@ -19,6 +19,8 @@ public abstract class BaseTest {
     public DragAndDropPage dragAndDropPage;
     public DropdownPage dropdownPage;
     public HoverPage hoverPage;
+    public NotificationMessagePage notificationMessagePage;
+    public AlertsPage alertsPage;
 
     @BeforeEach
     public void setUp() {

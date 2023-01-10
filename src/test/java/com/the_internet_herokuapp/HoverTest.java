@@ -2,6 +2,7 @@ package com.the_internet_herokuapp;
 
 
 import com.amberteam.the_internet_herokuapp.HoverPage;
+import com.amberteam.the_internet_herokuapp.utils.UserType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,7 +17,7 @@ public class HoverTest extends BaseTest {
         String expectedText = "name: user1";
 
         //when
-        hoverPage.hoverUser(1);
+        hoverPage.hoverUser(UserType.USER1);
 
         //then
         assertEquals(expectedText, hoverPage.getH5Text(1));

@@ -12,8 +12,10 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Dependencies versions -->
         <selenium.version>4.5.0</selenium.version>
         <junit.version>5.9.1</junit.version>
+        <javafaker.version>1.0.2</javafaker.version>
         <webdriver-manager.version>5.3.1</webdriver-manager.version>
         <hamcrest.version>2.2</hamcrest.version>
     </properties>
@@ -42,6 +44,12 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest</artifactId>
             <version>${hamcrest.version}</version>
+        </dependency>
+        <!-- Java Faker library that generates fake data. Overview: https://dius.github.io/java-faker/apidocs/index.html -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>${javafaker.version}</version>
         </dependency>
     </dependencies>
 </project>

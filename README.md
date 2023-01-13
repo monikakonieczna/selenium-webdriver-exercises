@@ -41,3 +41,14 @@ Exercises:
 11. Notification Messages
 12. Sortable Data Tables
 13. Multiple Windows
+
+## Coding tasks
+### Amazon
+
+---
+> Find iPhone on Amazon, go into first result from the list and check whether header contains "iPhone13".
+
+### Github
+
+---
+> Write with Selenium login on GitHub. Enter wrong credentials and assert, that error message appeared.

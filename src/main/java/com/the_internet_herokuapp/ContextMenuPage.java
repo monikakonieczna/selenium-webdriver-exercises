@@ -1,4 +1,4 @@
-package com.amberteam.the_internet_herokuapp;
+package com.the_internet_herokuapp;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

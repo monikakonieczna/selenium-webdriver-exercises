@@ -1,6 +1,5 @@
 package com.amberteam;
 
-import com.amberteam.exercises_pages.Exercise4Page;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

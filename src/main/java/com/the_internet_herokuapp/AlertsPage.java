@@ -1,6 +1,6 @@
-package com.amberteam.the_internet_herokuapp;
+package com.the_internet_herokuapp;
 
-import com.amberteam.the_internet_herokuapp.utils.AlertType;
+import com.the_internet_herokuapp.utils.AlertType;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.Map;
 
-import static com.amberteam.the_internet_herokuapp.utils.AlertType.*;
+import static com.the_internet_herokuapp.utils.AlertType.*;
 
 public class AlertsPage {
     private WebDriver driver = null;

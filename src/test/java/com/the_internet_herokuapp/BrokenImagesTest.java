@@ -1,6 +1,5 @@
 package com.the_internet_herokuapp;
 
-import com.amberteam.the_internet_herokuapp.BrokenImagesPage;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
 import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;

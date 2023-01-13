@@ -1,8 +1,7 @@
 package com.the_internet_herokuapp;
 
 
-import com.amberteam.the_internet_herokuapp.HoverPage;
-import com.amberteam.the_internet_herokuapp.utils.UserType;
+import com.the_internet_herokuapp.utils.UserType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

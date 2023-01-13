@@ -1,8 +1,5 @@
 package com.the_internet_herokuapp;
 
-import com.amberteam.the_internet_herokuapp.AlertsPage;
-import com.amberteam.the_internet_herokuapp.WindowPage;
-import com.amberteam.the_internet_herokuapp.utils.AlertType;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -1,4 +1,4 @@
-package com.amberteam.exercises_pages;
+package com.amberteam;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

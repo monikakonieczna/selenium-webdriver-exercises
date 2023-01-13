@@ -1,6 +1,5 @@
 package com.the_internet_herokuapp;
 
-import com.amberteam.the_internet_herokuapp.DropdownPage;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

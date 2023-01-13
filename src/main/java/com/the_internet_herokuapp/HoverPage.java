@@ -1,6 +1,6 @@
-package com.amberteam.the_internet_herokuapp;
+package com.the_internet_herokuapp;
 
-import com.amberteam.the_internet_herokuapp.utils.UserType;
+import com.the_internet_herokuapp.utils.UserType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,10 +8,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.HashMap;
 import java.util.Map;
 
-import static com.amberteam.the_internet_herokuapp.utils.UserType.*;
+import static com.the_internet_herokuapp.utils.UserType.*;
 
 public class HoverPage {
 

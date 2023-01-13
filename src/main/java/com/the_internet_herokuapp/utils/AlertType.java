@@ -1,4 +1,4 @@
-package com.amberteam.the_internet_herokuapp.utils;
+package com.the_internet_herokuapp.utils;
 
 public enum AlertType {
 

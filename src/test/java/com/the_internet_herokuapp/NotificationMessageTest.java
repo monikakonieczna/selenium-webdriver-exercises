@@ -1,6 +1,5 @@
 package com.the_internet_herokuapp;
 
-import com.amberteam.the_internet_herokuapp.NotificationMessagePage;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
